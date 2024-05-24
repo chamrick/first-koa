@@ -4,7 +4,11 @@
   "description": "Sample service using koa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Error: no lint specified\" && exit 1",
+    "build": "tsc",
+    "serve": "ts-node src/server.ts",
+    "start": "nodemon"
   },
   "keywords": [],
   "author": "Cord Hamrick",
@@ -22,7 +26,8 @@
     "koa-router": "^12.0.1",
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^3.9.10"
+    "typescript": "^3.9.10",
+    "typescript-eslint": "^7.10.0"
   },
   "dependencies": {
     "@types/koa": "^2.15.0",
