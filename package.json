@@ -26,8 +26,6 @@
     "@types/koa": "^2.15.0",
     "@types/koa-bodyparser": "^4.3.12",
     "@types/koa-router": "^7.4.8",
-    "@types/node": "^20.12.12",
-    "eslint-config-airbnb-typescript": "^18.0.0",
-    "typescript-eslint": "^7.10.0"
+    "@types/node": "^20.12.12"
   }
 }
