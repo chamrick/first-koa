@@ -1,33 +1,33 @@
 {
-    "name": "first-koa",
-    "version": "0.0.1",
-    "description": "Sample service using koa",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "Cord Hamrick",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "first-koa"
-    },
-    "devDependencies": {
-        "http-status-codes": "^2.3.0",
-        "koa": "^2.15.3",
-        "koa-bodyparser": "^4.4.1",
-        "koa-router": "^12.0.1",
-        "nodemon": "^3.1.0",
-        "ts-node": "^10.9.2",
-        "typescript": "^3.9.10"
-    },
-    "dependencies": {
-        "@types/koa": "^2.15.0",
-        "@types/koa-bodyparser": "^4.3.12",
-        "@types/koa-router": "^7.4.8",
-        "@types/node": "^20.12.12",
-        "eslint-config-airbnb-typescript": "^18.0.0",
-        "typescript-eslint": "^7.10.0"
-    }
+  "name": "first-koa",
+  "version": "0.0.1",
+  "description": "Sample service using koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cord Hamrick",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "first-koa"
+  },
+  "devDependencies": {
+    "http-status-codes": "^2.3.0",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/node": "^20.12.12",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "typescript-eslint": "^7.10.0"
+  }
 }
